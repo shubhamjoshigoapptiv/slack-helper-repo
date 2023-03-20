@@ -1,5 +1,5 @@
 interface Request {
-  id: string;
+  id?: string;
   method?: string;
   url?: string;
   body?: JSON;
